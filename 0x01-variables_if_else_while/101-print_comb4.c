@@ -40,9 +40,9 @@ break;
 }
 
 else
+{
 putchar(',');
-
-																		     putchar(' ');
+putchar(' ');
 }
 }
 }
