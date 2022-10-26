@@ -10,7 +10,7 @@ int main(void)
 {
 	long int n1, n2, fn, afn;
 
-	n = 1;
+	n1 = 1;
 	n2 = 2;
 	fn = afn = 0;
 	while (fn <= 4000000)
@@ -23,6 +23,6 @@ int main(void)
 	afn += n1;
 }
 }
-printf("ld\n", afn);
+printf("%ld\n", afn);
 return (0);
 }
