@@ -1,26 +1,11 @@
-#include "main.h"
+#include "main"
 /**
- * _strcat - concatenates two strings,
- *
- * @dest: destination.
- * @src: source.
- * Return: the pointer to dest.
+ * reset_to_98-resets the value of a variable back to 98
+ * @n:variables to be set
+ * Return:void
  */
-char *_strcat(char *dest, char *src)
+void reset_to_98(int*n)
 {
-	int count = 0, count2 = 0;
+	*n=98;
+}
 
-	while (*(dest + count) != '\0')
-{
-	count++;
-}
-while (count2 >= 0)
-{
-	*(dest + count) = *(src + count2);
-	if (*(src + count2) == '\0')
-		break;
-	count++;
-	count2++;
-}
-return (0);
-}
