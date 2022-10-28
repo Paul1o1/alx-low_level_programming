@@ -4,7 +4,7 @@
  * @str: inputstring
  * Return:no return.
  */
-void_puts(char *str)
+void _puts(char *str)
 {
 	int count = 0;
 

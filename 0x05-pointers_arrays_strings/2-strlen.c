@@ -4,7 +4,7 @@
  * @s:string pointer to the string whose length is to be found.
  * Return:returns the length of the strings.
  */
-int_strlen(char *s)
+int _strlen(char *s)
 {
 	int p = 0;
 	/*incremeant up to when the last character is NULL,\0*/
